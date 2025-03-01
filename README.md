@@ -17,13 +17,13 @@ You will need a working version of [Anaconda](https://www.anaconda.com/docs/gett
 
 The repository contains a ```conda_env.txt``` file that can be used setup a conda environment. This is done with
 ``` 
-$ conda create --name <name of env> --file <path to conda_env.txt>
+$ conda create --name <name-of-env> --file <path-to-conda_env.txt>
 ```
 Once created, the environment can be activated with
 ``` 
-$ conda activate <name of env>
+$ conda activate <name-of-env>
 ```
-Once the correct environment is activated, you can launch JupyterNotebook and navigate to the desired notebook
+Once the correct environment is activated, you can launch Jupyter Notebook and navigate to the desired notebook
 ``` 
 $ jupyter-notebook
 ```
